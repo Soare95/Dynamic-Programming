@@ -1,4 +1,4 @@
-.def fibonacci_recursive(num):  # O(2^n).......
+.def fibonacci_recursive(num):  # O(2^n)
     if num < 2:
         return num
     return fibonacci_recursive(num-1) + fibonacci_recursive(num-2)
